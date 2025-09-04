@@ -1,5 +1,8 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-
+/* index */
 .home-title {
     box-sizing: border-box;
     color:rgb(218, 159, 51);
@@ -28,7 +31,7 @@
 
 }
 .menu,
-.recipes
+li, .recipes
 {
     
     box-sizing: border-box; 
@@ -36,6 +39,10 @@
     width: 400px;
     margin:10px 100px 10px 50px;
 
+}
+li::marker{
+
+    color: black;
 }
 .menu {
 font-style: oblique;
@@ -51,4 +58,64 @@ font-size: 30px;
     padding-bottom: 1em;
     font-size: 20px;
 }
+/* recipe pages */
+
+.heading1 {
+    box-sizing: border-box; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 600px;
+    margin:10px 100px 10px 50px;
+    color: rgb(9, 78, 38);
+    border-bottom: dotted rgb(218, 159, 51) 10px ;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.homelink{
+   margin:10px 100px 10px 50px; 
+}
+.heading2{
+    box-sizing: border-box; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 600px;
+    text-align: center;
+    color: rgb(218, 159, 51);
+    margin:10px 100px 10px 50px;
+}
+.description,
+.image {
+    box-sizing: border-box; 
+    
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 600px;
+    margin:10px 100px 10px 50px;
+}
+
+.image {
+    border: 5px;
+    border-style: groove;
+    border-color: orange;
+}
+
+li{
+    color: black;
+}
+
+.heading3{
+    box-sizing: border-box;
+    width: 200px;
+    text-align: center;
+    margin:10px 100px 10px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(9, 78, 38); 
+}
+.heading3.steps{
+    text-align: left;
+    padding-left: 45px;
+}
+
+
+
 
